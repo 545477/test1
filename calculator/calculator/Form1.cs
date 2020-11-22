@@ -12,7 +12,7 @@ namespace calculator
 {
     public partial class Form1 : Form
     {
-        bool DivBool=false, MulBool = false, AddBool = false, MinBool = false, EquBool = false;
+        bool DivBool=false;
         float a, b;
         int count;
         bool znak = true;
@@ -67,7 +67,14 @@ namespace calculator
         }
         private void button10_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "0";
+            if (!DivBool) 
+            { 
+                textBox1.Text = textBox1.Text + "0";
+            }
+            else 
+            {
+                MessageBox.Show("Деление на 0", "Ошибка");
+            }
         }
         private void buttonDot_Click(object sender, EventArgs e)
         {
@@ -80,6 +87,7 @@ namespace calculator
             count = 4;
             label1.Text = a.ToString() + "/";
             znak = true;
+            DivBool = true;
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -119,6 +127,7 @@ namespace calculator
         {
             calculate();
             label1.Text = "";
+            DivBool = false;
         }
         private void calculate()
         {
