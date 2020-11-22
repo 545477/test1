@@ -1,0 +1,9 @@
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.pdb
