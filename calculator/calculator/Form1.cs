@@ -12,7 +12,7 @@ namespace calculator
 {
     public partial class Form1 : Form
     {
-        bool DivBool=false, MulBool = false, AddBool = false, MinBool = false, EquBool = false;
+        bool DivBool = false,dot=false ;
         float a, b;
         int count;
         bool znak = true;
@@ -71,7 +71,11 @@ namespace calculator
         }
         private void buttonDot_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + ",";
+            if (!dot)
+            { 
+                textBox1.Text = textBox1.Text + ",";
+                dot = true;
+            }
         }
         private void buttonDiv_Click(object sender, EventArgs e)
         {
@@ -86,6 +90,7 @@ namespace calculator
         {
             textBox1.Text = "";
             label1.Text = "";
+            
         }
 
         private void buttonMul_Click(object sender, EventArgs e)
@@ -119,6 +124,7 @@ namespace calculator
         {
             calculate();
             label1.Text = "";
+            dot = false;
         }
         private void calculate()
         {
