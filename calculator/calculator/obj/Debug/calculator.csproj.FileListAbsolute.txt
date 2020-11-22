@@ -7,3 +7,4 @@ C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр п
 C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
 C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.exe
 C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.pdb
+C:\Users\Deus\Desktop\Lab\Технологии разработки по\тр по 2\gith\test1\calculator\calculator\obj\Debug\calculator.Form1.resources
