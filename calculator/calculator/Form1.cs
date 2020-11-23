@@ -18,6 +18,7 @@ namespace calculator
         bool znak = true;
         public Form1()
         {
+            MessageBox.Show("Приветствие", "Приветствие");
             InitializeComponent();
         }
 
