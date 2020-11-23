@@ -89,6 +89,14 @@ namespace calculator
             label1.Text = "";
         }
 
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+                e.Cancel = MessageBox.Show(@"Закрыть приложение?",
+                                           Application.ProductName,
+                                           MessageBoxButtons.YesNo) == DialogResult.No;
+        }
+
         private void buttonMul_Click(object sender, EventArgs e)
         {
             a = float.Parse(textBox1.Text);
@@ -147,6 +155,7 @@ namespace calculator
             }
 
         }
+
 
     }
 }
